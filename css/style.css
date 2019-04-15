@@ -1,0 +1,346 @@
+@charset "UTF-8";
+* {
+  font-family: "Charm", 微軟正黑體;
+}
+
+body {
+  height: 1000px;
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+}
+
+.nav.navbar-nav.navbar-right a {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+header.jumbotron {
+  position: relative;
+  text-align: center;
+  background-image: url(https://img.elo7.com.br/product/original/15EC0B3/painel-festa-minions-minions13-banner-festa-infantil.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+header.jumbotron .container {
+  padding: 250px 0px;
+  color: #000;
+}
+header.jumbotron .container h2 {
+  font-size: 40px;
+}
+header.jumbotron .line1, header.jumbotron .line2 {
+  position: absolute;
+  left: 50%;
+  border: solid 3px #ff4949;
+  background-color: #ff4949;
+  border-radius: 8px;
+  width: 60px;
+  margin-top: 40px;
+}
+header.jumbotron h1 {
+  margin: 0;
+  font-size: 80px;
+}
+header.jumbotron h2 {
+  padding-top: 40px;
+}
+
+section {
+  padding: 50px 0px;
+}
+section .container {
+  width: 100%;
+  margin: 0;
+}
+
+section#page1 {
+  background-color: rgba(250, 223, 108, 0.2);
+  padding: 0;
+}
+section#page1 .img_1 {
+  height: 650px;
+  width: 750px;
+  padding: 0;
+  background-image: url(https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_720,f_auto/w_80,x_15,y_15,g_south_west,l_klook_water/activities/yettjcijhrq7miq8revr/%E5%A5%A7%E8%98%AD%E5%A4%9A%E7%92%B0%E7%90%83%E5%BD%B1%E5%9F%8E%E4%B8%80%E6%97%A5%E9%96%80%E7%A5%A8.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+section#page1 .img_2 {
+  display: flex;
+  width: calc(100% - 750px);
+  min-width: 600px;
+  height: 400px;
+  background-image: url(https://images1.tianxun.com/news/2015/1_834.jpg);
+  background-size: 100% 100%;
+  padding: 0;
+}
+section#page1 .col-md-6.col-sm-12.text {
+  padding: 0;
+  left: 25px;
+  top: 5px;
+  margin: 20px 0px;
+}
+section#page1 .col-md-6.col-sm-12.text a {
+  font-size: 36px;
+  color: #000;
+  text-decoration: none;
+}
+section#page1 .col-md-6.col-sm-12.text .text {
+  display: inline-flex;
+  width: 100%;
+  margin-left: 5px;
+}
+section#page1 .col-md-6.col-sm-12.text .text .text1, section#page1 .col-md-6.col-sm-12.text .text .text2 {
+  display: inline-block;
+  width: 50%;
+}
+section#page1 .col-md-6.col-sm-12.text .text .text1 i, section#page1 .col-md-6.col-sm-12.text .text .text2 i {
+  font-size: 16px;
+  color: blue;
+}
+section#page1 .col-md-6.col-sm-12.text .text .text1 span, section#page1 .col-md-6.col-sm-12.text .text .text2 span {
+  font-size: 18px;
+  color: red;
+}
+section#page1 .col-md-6.col-sm-12.text .text .text1 h4, section#page1 .col-md-6.col-sm-12.text .text .text2 h4 {
+  font-size: 20px;
+}
+section#page1 .col-md-6.col-sm-12.text .text .text1 p, section#page1 .col-md-6.col-sm-12.text .text .text2 p {
+  font-size: 16px;
+}
+
+section#page2 {
+  padding: 0;
+  background-color: rgba(250, 223, 108, 0.2);
+}
+section#page2 .col-md-6 {
+  height: 400px;
+  padding: 0;
+  margin-top: 20px;
+}
+section#page2 .img_1, section#page2 .img_2, section#page2 .img_3, section#page2 .img_4 {
+  width: 25%;
+  min-width: 450px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+section#page2 .img_1 {
+  background-image: url(https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d383832343835);
+}
+section#page2 .img_2 {
+  background-image: url(https://gc.meepcloud.com/meepshop/33dbb0c7-11d5-4912-b4f6-b8ab80cc495b/files/9509718a-1e0d-4d5f-a7b8-a4c763d792dc.jpeg);
+}
+section#page2 .img_3 {
+  background-image: url(https://www.usj.co.jp/overseas/attraction/img/index_download_img.png);
+}
+section#page2 .img_4 {
+  background-image: url(https://cdn2.ettoday.net/images/2803/d2803961.jpg);
+}
+section#page2 .col-md-6.col-sm-12.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  white-space: nowrap;
+  margin: 50px 0px;
+}
+section#page2 .col-md-6.col-sm-12.row a {
+  width: 200px;
+  margin-top: 5px;
+  margin-left: -30px;
+  font-size: 36px;
+  color: #000;
+  text-decoration: none;
+  margin-top: 10px;
+}
+section#page2 .col-md-6.col-sm-12.row span {
+  font-size: 18px;
+  color: red;
+  margin-left: -92px;
+}
+section#page2 .col-md-6.col-sm-12.row .rm {
+  display: flex;
+}
+section#page2 .col-md-6.col-sm-12.row i {
+  margin-top: 5px;
+  margin-left: 5px;
+  font-size: 16px;
+  color: blue;
+}
+section#page2 .col-md-6.col-sm-12.row p {
+  margin-left: 15px;
+  width: 200px;
+  font-size: 18px;
+}
+
+section#page3 {
+  padding: 0;
+  background-color: rgba(13, 146, 242, 0.1);
+}
+section#page3 .col-md-6 {
+  height: 400px;
+  padding: 0;
+  margin: 0;
+}
+section#page3 .img_1, section#page3 .img_2, section#page3 .img_3 {
+  width: 25%;
+  min-width: 450px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 0;
+  border-radius: 30px;
+}
+section#page3 .img_1 {
+  background-image: url(https://thelightsuitcase.files.wordpress.com/2015/09/p-16.jpg);
+}
+section#page3 .img_2 {
+  background-image: url(https://www.dailynews.com/wp-content/uploads/2018/05/0512_fea_ldn-l-jurassicpark.jpg);
+}
+section#page3 .img_3 {
+  background-image: url(https://www.universalstudioshollywood.com/wp-content/uploads/2017/03/KFP_2800x1197.jpg);
+}
+section#page3 .text {
+  width: 20%;
+  white-space: nowrap;
+  padding: 0;
+  left: 20px;
+  top: 40px;
+  line-height: 36px;
+}
+section#page3 .text a {
+  font-size: 36px;
+  color: #000;
+  text-decoration: none;
+}
+section#page3 .text span {
+  font-size: 18px;
+  color: red;
+  margin-left: 5px;
+}
+section#page3 .text i {
+  font-size: 16px;
+  color: blue;
+  margin-left: 5px;
+}
+section#page3 .text p {
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+section#page4 {
+  background-color: rgba(13, 146, 242, 0.1);
+  padding: 0;
+}
+section#page4 .container {
+  padding: 0;
+}
+section#page4 .container .row {
+  margin: 0;
+}
+section#page4 .col-md-4 {
+  padding: 0;
+  height: 450px;
+}
+section#page4 .img_1, section#page4 .img_2, section#page4 .img_3, section#page4 .img_4 {
+  width: 25%;
+  min-width: 450px;
+  background-size: 100% 100%;
+  border-radius: 30px;
+}
+section#page4 .img_1 {
+  background-image: url(https://icrvb3jy.xinmedia.com/solomo/article/71929/EF1CB5C4-73FE-0D34-6266-ED62939C8D0A.jpg);
+}
+section#page4 .img_2 {
+  background-image: url(https://travel.ulifestyle.com.hk/cms/news_photo/original/20100308102815_0_20100202155409_1_s1.jpg);
+}
+section#page4 .img_3 {
+  background-image: url(https://img.miha.tw/uploads/2015-03-02-192049-25.png);
+}
+section#page4 .img_4 {
+  background-image: url(https://www.rwsentosa.com/-/media/project/non-gaming/rwsentosa/attractions/universal-studios-singapore/events/christmas/uss-christmas-masthead-en-1366x666.jpg?mh=666&la=zh-TW&h=666&w=1366&mw=1366&hash=29A4844EA65CAF8EBBB83ECC08A42C21D10985BD);
+}
+section#page4 .row1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  white-space: nowrap;
+  margin: 40px 0px;
+}
+section#page4 .row1 a {
+  font-size: 36px;
+  color: #000;
+  text-decoration: none;
+}
+section#page4 .row1 .rm {
+  margin-left: -188px;
+}
+section#page4 .row1 .rm span {
+  font-size: 18px;
+  color: red;
+}
+section#page4 .row1 .rm i {
+  font-size: 16px;
+  color: blue;
+  margin-left: 5px;
+}
+section#page4 .row1 p {
+  margin-left: -95px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+footer.jumbotron {
+  background-color: white;
+  background-image: url(https://img.elo7.com.br/product/original/15EC0B3/painel-festa-minions-minions13-banner-festa-infantil.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+footer.jumbotron input {
+  background-color: transparent;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer.jumbotron .container {
+  text-align: center;
+  color: #000;
+  padding: 80px 0px;
+}
+footer.jumbotron .container hr {
+  width: 250px;
+  border: solid 3px #ff4949;
+  border-radius: 8px;
+}
+footer.jumbotron .container button {
+  font-weight: bold;
+}
+
+nav.navbar {
+  transition: 0.5s;
+  background-color: transparent;
+}
+nav.navbar .navbar-right, nav.navbar .navbar-header {
+  font-size: 20px;
+}
+nav.navbar .navbar-right a, nav.navbar .navbar-header a {
+  color: #f7df45;
+  transition: 0.5s;
+  font-weight: normal;
+}
+nav.navbar .navbar-right a:hover, nav.navbar .navbar-header a:hover {
+  color: #ff4949;
+}
+
+nav.navbar.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: rgba(234, 234, 234, 0.7);
+}
